@@ -1,0 +1,32 @@
+[
+    {
+        "name":"General CNC",
+        "description": "this is a General CNC meachine category",
+        "imageUrl": "../assets/machines/General CNC/22.jpg"
+    },
+    {
+        "name":"General Meachine peripherals",
+        "description": "this is a General Meachine peripherals category",
+        "imageUrl": "../assets/machines/19.jpg"
+    },
+    {
+        "name":"Lathe and CNC VTL",
+        "description": "this is a Lathe and CNC VTL category",
+        "imageUrl": "../assets/machines/28.jpg"
+    },
+    {
+        "name":"General CNC",
+        "description": "this is a General CNC meachine category",
+        "imageUrl": "../assets/machines/General CNC/22.jpg"
+    },
+    {
+        "name":"General Meachine peripherals",
+        "description": "this is a General Meachine peripherals category",
+        "imageUrl": "../assets/machines/19.jpg"
+    },
+    {
+        "name":"Lathe and CNC VTL",
+        "description": "this is a Lathe and CNC VTL category",
+        "imageUrl": "../assets/machines/28.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+<!-- Products -->
+<div class="container">
+  <div class="title">
+    <h1>{{ title }}</h1>
+  </div>
+  <!-- Category -->
+  <div class="category">
+    <div class="btn-group" role="group" aria-label="Basic outlined example" *ngFor="let cat of categoryList">
+      <button type="button" class="btn btn-outline-primary category_buttons" (click)="changeItems(cat, $event)">{{cat.name}}</button>
+    </div>
+  </div>
+  <!-- category ends -->
+  <div class="row" *ngIf="showProducts">
+    <div class="col-md-4 mb-4" *ngFor="let c of productsList">
+      <div class="card card-style" (click)="selectedItem(c)">
+        <img class="card-img-top" [src]="c.imageUrl" alt="Card image cap" />
+        <div class="card-body">
+          <div class="card-text">
+            <h3>{{ c.name }}</h3>
+            <br />
+            {{ c.description }}
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="overlay-text">{{ c.name }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

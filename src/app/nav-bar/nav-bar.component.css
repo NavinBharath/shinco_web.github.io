@@ -1,0 +1,42 @@
+::ng-deep :root {
+    --primary-colour: #ff6600;
+    --white: #ffffff;
+  }
+.navLinks{
+    align-items: end;
+    text-align: end;
+}
+.nav_bar {
+    background-color: var(--white,#ffffff) !important;
+    /* background: #2F27A1; */
+    /* background: linear-gradient(225deg, #2F27A1, #7D090A); */
+}
+
+.nav-link-style{
+    color: black !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav_bar a{
+    min-width: 80px !important;
+    text-align: center;
+    margin: 0px 2px;
+}
+
+.nav_bar a:hover{
+    background-color: var(--primary-colour,orange);
+    /* background: #A12765; */
+    /* background: linear-gradient(225deg, #A12765, #09727D); */
+    color: #ffffff;
+    border-bottom: solid #ffffff 1px;
+    border-radius: 10px 30px !important;
+    transition: 0.4s;
+}
+
+.active{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff !important;
+    /* border-bottom: solid #ffffff 1px; */
+    border-radius: 10px 30px !important;
+}
