@@ -13,5 +13,20 @@
         "name":"Lathe and CNC VTL",
         "description": "this is a Lathe and CNC VTL category",
         "imageUrl": "../assets/machines/28.jpg"
+    },
+    {
+        "name":"Inspection Capabalities",
+        "description": "this is a Lathe and CNC VTL category",
+        "imageUrl": "../assets/machines/28.jpg"
+    },
+    {
+        "name":"Milling Machine",
+        "description": "this is a Lathe and CNC VTL category",
+        "imageUrl": "../assets/machines/28.jpg"
+    },
+    {
+        "name":"Grinding Machine",
+        "description": "this is a Lathe and CNC VTL category",
+        "imageUrl": "../assets/machines/28.jpg"
     }
 ]
